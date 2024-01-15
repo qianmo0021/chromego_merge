@@ -43,21 +43,32 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: meta_vmess_01
-  type: vmess
+- name: meta_vless_01
+  type: vless
   server: dongtaiwang3.com
   port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
   tls: true
-  skip-cert-verify: true
-  servername: ''
+  servername: dongtaiwang.dtku47.xyz
   network: ws
   ws-opts:
-    path: /gzogws
+    path: /eobjws
     headers:
-      host: xray1.freeh1.xyz
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: meta_vless_02
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
 - name: meta_vmess_11
   type: vmess
   server: dongtaiwang2.com
@@ -86,24 +97,22 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: meta_vmess_31
-  type: vmess
+- name: meta_vless_31
+  type: vless
   server: dongtaiwang3.com
   port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
+  uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
   tls: true
-  skip-cert-verify: true
-  servername: ''
+  servername: dongtaiwang.freeh1.xyz
   network: ws
   ws-opts:
-    path: /gzogws
+    path: /pxzaws
     headers:
-      host: xray1.freeh1.xyz
+      host: dongtaiwang.freeh1.xyz
+  client-fingerprint: chrome
 - name: meta_vmess_41
   type: vmess
-  server: cloudflare.cfgo.cc
+  server: dongtaiwang2.com
   port: 443
   cipher: auto
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
@@ -118,7 +127,7 @@ proxies:
       host: xray1.freeh1.xyz
 - name: meta_vmess_51
   type: vmess
-  server: cloudflare.cfgo.cc
+  server: dongtaiwang3.com
   port: 443
   cipher: auto
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
@@ -133,7 +142,7 @@ proxies:
       host: xray1.freeh1.xyz
 - name: meta_hysteria_61
   type: hysteria
-  server: 111.243.97.209
+  server: www2.dtku48.xyz
   port: 22334
   auth-str: dongtaiwang.com
   alpn:
@@ -254,10 +263,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - meta_vmess_01
+  - meta_vless_01
+  - meta_vless_02
   - meta_vmess_11
   - meta_vless_21
-  - meta_vmess_31
+  - meta_vless_31
   - meta_vmess_41
   - meta_vmess_51
   - meta_hysteria_61
@@ -271,10 +281,11 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - meta_vmess_01
+  - meta_vless_01
+  - meta_vless_02
   - meta_vmess_11
   - meta_vless_21
-  - meta_vmess_31
+  - meta_vless_31
   - meta_vmess_41
   - meta_vmess_51
   - meta_hysteria_61
@@ -288,10 +299,11 @@ proxy-groups:
 - name: 负载均衡
   type: load-balance
   proxies:
-  - meta_vmess_01
+  - meta_vless_01
+  - meta_vless_02
   - meta_vmess_11
   - meta_vless_21
-  - meta_vmess_31
+  - meta_vless_31
   - meta_vmess_41
   - meta_vmess_51
   - meta_hysteria_61
