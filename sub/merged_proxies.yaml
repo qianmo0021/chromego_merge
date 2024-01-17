@@ -25,32 +25,26 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: meta_vless_01
-  type: vless
-  server: dongtaiwang3.com
-  port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
-  tls: true
-  servername: dongtaiwang.dtku47.xyz
-  network: ws
-  ws-opts:
-    path: /eobjws
-    headers:
-      host: dongtaiwang.dtku47.xyz
+- name: meta_ss_01
+  type: ss
+  server: 167.160.90.252
+  port: 8883
+  cipher: 2022-blake3-aes-128-gcm
+  password: lolvK9uAhEDYTMuqCRblBg==
+  plugin: shadow-tls
   client-fingerprint: chrome
-- name: meta_vless_02
-  type: vless
-  server: dongtaiwang2.com
-  port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
-  tls: true
-  servername: dongtaiwang.dtku47.xyz
-  network: ws
-  ws-opts:
-    path: /eobjws
-    headers:
-      host: dongtaiwang.dtku47.xyz
-  client-fingerprint: chrome
+  plugin-opts:
+    host: addons.mozilla.org
+    password: d3971b31-e16b-4af2-b430-afb896380543
+    version: 3
+  smux:
+    enabled: true
+    protocol: h2mux
+    padding: true
+    max-connections: '8'
+    min-streams: '16'
+    statistic: true
+    only-tcp: false
 - name: meta_vmess_11
   type: vmess
   server: dongtaiwang2.com
@@ -145,40 +139,17 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
-- name: meta_hysteria_81
-  type: hysteria
-  server: 64.110.25.10
-  port: 44556
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: meta_hysteria_91
-  type: hysteria
-  server: 62.204.54.81
-  port: 62946
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 5
-  down: 10
 - name: hysteria_0
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 51.158.54.46
+  port: 55396
+  ports: 55396
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: youku.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -212,15 +183,15 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 51.158.54.46
-  port: 55396
-  ports: 55396
-  auth_str: dongtaiwang.com
+  server: 167.160.91.115
+  port: 41189
+  ports: 41189
+  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
   - h3
@@ -230,8 +201,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - meta_vless_01
-  - meta_vless_02
+  - meta_ss_01
   - meta_vmess_11
   - meta_vless_21
   - meta_vless_31
@@ -239,8 +209,6 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
-  - meta_hysteria_81
-  - meta_hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -251,8 +219,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - meta_vless_01
-  - meta_vless_02
+  - meta_ss_01
   - meta_vmess_11
   - meta_vless_21
   - meta_vless_31
@@ -260,8 +227,6 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
-  - meta_hysteria_81
-  - meta_hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
