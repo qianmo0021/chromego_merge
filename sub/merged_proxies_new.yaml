@@ -335,7 +335,7 @@ proxies:
 - name: meta_hysteria_71
   type: hysteria
   server: www.dtku50.xyz
-  port: 32408
+  port: 18470
   sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
