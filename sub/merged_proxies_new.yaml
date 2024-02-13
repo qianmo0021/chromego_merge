@@ -49,6 +49,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: meta_vmess_12
+  type: vmess
+  server: www.dtku40.xyz
+  port: 40011
+  cipher: auto
+  uuid: c506bccb-06b8-4f1a-bc3e-41ed4929c003
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /soh5qvuQ/
 - name: meta_vless_21
   type: vless
   server: 108.181.5.18
@@ -1873,6 +1886,7 @@ proxy-groups:
   - DIRECT
   - meta_hysteria2_01
   - meta_tuic_11
+  - meta_vmess_12
   - meta_vless_21
   - meta_tuic_31
   - meta_vless_41
@@ -2032,6 +2046,7 @@ proxy-groups:
   proxies:
   - meta_hysteria2_01
   - meta_tuic_11
+  - meta_vmess_12
   - meta_vless_21
   - meta_tuic_31
   - meta_vless_41
