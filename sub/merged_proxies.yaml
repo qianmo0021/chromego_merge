@@ -28,19 +28,49 @@ proxies:
 - name: meta_vmess_11
   type: vmess
   server: 23.227.38.220
+  port: 2053
+  cipher: auto
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: meta_vmess_12
+  type: vmess
+  server: 23.227.39.210
+  port: 2053
+  cipher: auto
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: sequence-worse-councils-nest.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      host: sequence-worse-councils-nest.trycloudflare.com
+- name: meta_vmess_41
+  type: vmess
+  server: 23.227.38.220
   port: 443
   cipher: auto
   uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
   alterId: 0
   tls: true
   skip-cert-verify: true
-  servername: photographs-encouraged-orientation-do.trycloudflare.com
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
     path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
     headers:
-      host: photographs-encouraged-orientation-do.trycloudflare.com
-- name: meta_vmess_12
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: meta_vmess_42
   type: vmess
   server: 23.227.39.210
   port: 443
@@ -49,30 +79,16 @@ proxies:
   alterId: 0
   tls: true
   skip-cert-verify: true
-  servername: phoenix-readers-contrary-vertex.trycloudflare.com
+  servername: sequence-worse-councils-nest.trycloudflare.com
   network: ws
   ws-opts:
     path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      host: phoenix-readers-contrary-vertex.trycloudflare.com
-- name: meta_tuic_41
-  server: 108.181.5.131
-  port: 21167
-  type: tuic
-  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-  password: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-  sni: www.bing.com
-  skip-cert-verify: true
+      host: sequence-worse-councils-nest.trycloudflare.com
 - name: meta_vmess_51
   type: vmess
-  server: 104.25.29.54
-  port: 443
+  server: 23.227.38.12
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -86,8 +102,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_52
   type: vmess
-  server: 104.24.232.13
-  port: 443
+  server: 103.21.244.83
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -101,8 +117,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_53
   type: vmess
-  server: 108.162.196.20
-  port: 443
+  server: 188.114.97.196
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -116,8 +132,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_54
   type: vmess
-  server: 103.21.244.83
-  port: 443
+  server: 190.93.247.214
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -131,8 +147,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_55
   type: vmess
-  server: 188.114.97.196
-  port: 443
+  server: 173.245.58.51
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -146,8 +162,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_56
   type: vmess
-  server: 104.24.87.25
-  port: 443
+  server: 141.101.123.221
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -161,8 +177,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_57
   type: vmess
-  server: 190.93.247.214
-  port: 443
+  server: 198.41.209.240
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -176,8 +192,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_58
   type: vmess
-  server: 173.245.58.51
-  port: 443
+  server: 141.101.121.91
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -191,8 +207,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_59
   type: vmess
-  server: 104.24.235.156
-  port: 443
+  server: 103.21.244.136
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -206,8 +222,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_510
   type: vmess
-  server: 141.101.123.221
-  port: 443
+  server: 190.93.245.141
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -221,8 +237,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_511
   type: vmess
-  server: 198.41.209.240
-  port: 443
+  server: 190.93.245.232
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -236,8 +252,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_512
   type: vmess
-  server: 104.24.208.57
-  port: 443
+  server: 188.114.96.25
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -251,8 +267,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_513
   type: vmess
-  server: 141.101.121.91
-  port: 443
+  server: 172.67.229.73
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -266,8 +282,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_514
   type: vmess
-  server: 104.19.169.142
-  port: 443
+  server: 190.93.245.223
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -281,8 +297,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_515
   type: vmess
-  server: 104.25.174.112
-  port: 443
+  server: 103.21.244.96
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -296,8 +312,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_516
   type: vmess
-  server: 103.21.244.136
-  port: 443
+  server: 172.64.142.35
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -311,8 +327,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_517
   type: vmess
-  server: 190.93.245.141
-  port: 443
+  server: 173.245.58.185
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -326,8 +342,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_518
   type: vmess
-  server: 190.93.245.232
-  port: 443
+  server: 162.159.43.135
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -341,8 +357,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_519
   type: vmess
-  server: 188.114.96.25
-  port: 443
+  server: 198.41.214.178
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -356,8 +372,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_520
   type: vmess
-  server: 172.67.229.73
-  port: 443
+  server: 188.114.97.109
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -371,8 +387,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_521
   type: vmess
-  server: 190.93.245.223
-  port: 443
+  server: 198.41.217.124
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -386,8 +402,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_522
   type: vmess
-  server: 104.21.47.212
-  port: 443
+  server: 162.159.136.86
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -401,8 +417,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_523
   type: vmess
-  server: 103.21.244.96
-  port: 443
+  server: 188.114.99.212
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -416,8 +432,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_524
   type: vmess
-  server: 104.24.81.171
-  port: 443
+  server: 198.41.199.127
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -431,8 +447,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_525
   type: vmess
-  server: 172.64.142.35
-  port: 443
+  server: 198.41.219.235
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -446,8 +462,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_526
   type: vmess
-  server: 104.19.154.11
-  port: 443
+  server: 198.41.204.209
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -461,8 +477,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_527
   type: vmess
-  server: 173.245.58.185
-  port: 443
+  server: 198.41.212.118
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -476,8 +492,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_528
   type: vmess
-  server: 104.17.70.31
-  port: 443
+  server: 162.159.58.126
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -491,8 +507,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_529
   type: vmess
-  server: 162.159.43.135
-  port: 443
+  server: 173.245.59.149
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -506,8 +522,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_530
   type: vmess
-  server: 104.24.131.34
-  port: 443
+  server: 188.114.97.52
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -521,8 +537,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_531
   type: vmess
-  server: 104.25.208.129
-  port: 443
+  server: 190.93.247.120
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -536,8 +552,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_532
   type: vmess
-  server: 104.18.237.206
-  port: 443
+  server: 188.114.97.4
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -551,8 +567,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_533
   type: vmess
-  server: 104.23.114.35
-  port: 443
+  server: 162.159.35.180
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -566,8 +582,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_534
   type: vmess
-  server: 198.41.214.178
-  port: 443
+  server: 172.67.144.123
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -581,8 +597,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_535
   type: vmess
-  server: 188.114.97.109
-  port: 443
+  server: 162.159.152.92
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -596,8 +612,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_536
   type: vmess
-  server: 104.18.196.119
-  port: 443
+  server: 198.41.215.80
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -611,8 +627,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_537
   type: vmess
-  server: 104.24.11.105
-  port: 443
+  server: 172.66.154.44
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -626,8 +642,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_538
   type: vmess
-  server: 198.41.217.124
-  port: 443
+  server: 162.159.12.58
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -641,8 +657,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_539
   type: vmess
-  server: 104.21.22.149
-  port: 443
+  server: 188.114.98.60
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -656,8 +672,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_540
   type: vmess
-  server: 162.159.136.86
-  port: 443
+  server: 162.159.10.152
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -671,8 +687,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_541
   type: vmess
-  server: 188.114.99.212
-  port: 443
+  server: 198.41.196.136
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -686,8 +702,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_542
   type: vmess
-  server: 104.17.66.180
-  port: 443
+  server: 188.114.99.147
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -701,8 +717,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_543
   type: vmess
-  server: 104.17.179.54
-  port: 443
+  server: 103.21.244.237
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -716,8 +732,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_544
   type: vmess
-  server: 104.18.53.197
-  port: 443
+  server: 108.162.193.176
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -731,8 +747,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_545
   type: vmess
-  server: 198.41.199.127
-  port: 443
+  server: 198.41.221.193
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -746,8 +762,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_546
   type: vmess
-  server: 198.41.219.235
-  port: 443
+  server: 188.114.98.96
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -761,8 +777,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_547
   type: vmess
-  server: 104.17.24.104
-  port: 443
+  server: 173.245.59.190
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -776,8 +792,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_548
   type: vmess
-  server: 104.20.44.98
-  port: 443
+  server: 190.93.247.33
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -791,8 +807,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_549
   type: vmess
-  server: 198.41.204.209
-  port: 443
+  server: 172.66.151.45
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -806,8 +822,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_550
   type: vmess
-  server: 198.41.212.118
-  port: 443
+  server: 190.93.246.223
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -821,8 +837,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_551
   type: vmess
-  server: 104.24.131.93
-  port: 443
+  server: 188.114.98.224
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -836,8 +852,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_552
   type: vmess
-  server: 104.19.210.95
-  port: 443
+  server: 108.162.196.207
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -851,8 +867,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_553
   type: vmess
-  server: 104.19.146.152
-  port: 443
+  server: 190.93.244.15
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -866,8 +882,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_554
   type: vmess
-  server: 162.159.58.126
-  port: 443
+  server: 141.101.120.144
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -881,8 +897,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_555
   type: vmess
-  server: 173.245.59.149
-  port: 443
+  server: 188.114.96.75
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -896,8 +912,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_556
   type: vmess
-  server: 188.114.97.52
-  port: 443
+  server: 103.21.244.245
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -911,8 +927,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_557
   type: vmess
-  server: 104.18.220.123
-  port: 443
+  server: 141.101.122.10
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -926,8 +942,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_558
   type: vmess
-  server: 104.24.5.20
-  port: 443
+  server: 173.245.58.123
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -941,8 +957,8 @@ proxies:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_559
   type: vmess
-  server: 104.25.103.32
-  port: 443
+  server: 103.21.244.112
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -955,741 +971,6 @@ proxies:
     headers:
       host: nest-emily-healing-h.trycloudflare.com
 - name: meta_vmess_560
-  type: vmess
-  server: 190.93.247.120
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_561
-  type: vmess
-  server: 104.17.191.127
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_562
-  type: vmess
-  server: 188.114.97.4
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_563
-  type: vmess
-  server: 162.159.35.180
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_564
-  type: vmess
-  server: 104.18.206.164
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_565
-  type: vmess
-  server: 104.27.74.198
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_566
-  type: vmess
-  server: 104.18.144.68
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_567
-  type: vmess
-  server: 104.25.41.36
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_568
-  type: vmess
-  server: 172.67.144.123
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_569
-  type: vmess
-  server: 162.159.152.92
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_570
-  type: vmess
-  server: 198.41.215.80
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_571
-  type: vmess
-  server: 104.27.23.141
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_572
-  type: vmess
-  server: 172.66.154.44
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_573
-  type: vmess
-  server: 162.159.12.58
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_574
-  type: vmess
-  server: 188.114.98.60
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_575
-  type: vmess
-  server: 104.18.10.92
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_576
-  type: vmess
-  server: 162.159.10.152
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_577
-  type: vmess
-  server: 198.41.196.136
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_578
-  type: vmess
-  server: 188.114.99.147
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_579
-  type: vmess
-  server: 103.21.244.237
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_580
-  type: vmess
-  server: 104.19.85.36
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_581
-  type: vmess
-  server: 104.24.72.172
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_582
-  type: vmess
-  server: 108.162.193.176
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_583
-  type: vmess
-  server: 198.41.221.193
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_584
-  type: vmess
-  server: 188.114.98.96
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_585
-  type: vmess
-  server: 173.245.59.190
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_586
-  type: vmess
-  server: 104.17.114.8
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_587
-  type: vmess
-  server: 190.93.247.33
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_588
-  type: vmess
-  server: 172.66.151.45
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_589
-  type: vmess
-  server: 190.93.246.223
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_590
-  type: vmess
-  server: 104.21.83.203
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_591
-  type: vmess
-  server: 188.114.98.224
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_592
-  type: vmess
-  server: 104.20.161.238
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_593
-  type: vmess
-  server: 108.162.196.207
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_594
-  type: vmess
-  server: 104.17.242.174
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_595
-  type: vmess
-  server: 104.16.97.17
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_596
-  type: vmess
-  server: 104.19.25.20
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_597
-  type: vmess
-  server: 190.93.244.15
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_598
-  type: vmess
-  server: 141.101.120.144
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_599
-  type: vmess
-  server: 104.24.253.25
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5100
-  type: vmess
-  server: 188.114.96.75
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5101
-  type: vmess
-  server: 103.21.244.245
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5102
-  type: vmess
-  server: 104.25.145.60
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5103
-  type: vmess
-  server: 141.101.122.10
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5104
-  type: vmess
-  server: 104.19.94.188
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5105
-  type: vmess
-  server: 104.20.193.136
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5106
-  type: vmess
-  server: 104.16.100.97
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5107
-  type: vmess
-  server: 173.245.58.123
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5108
-  type: vmess
-  server: 103.21.244.112
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5109
   type: vmess
   server: 190.93.247.242
   port: 443
@@ -1704,7 +985,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5110
+- name: meta_vmess_561
   type: vmess
   server: 173.245.49.132
   port: 443
@@ -1719,22 +1000,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5111
-  type: vmess
-  server: 104.25.149.142
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5112
+- name: meta_vmess_562
   type: vmess
   server: 173.245.59.29
   port: 443
@@ -1749,7 +1015,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5113
+- name: meta_vmess_563
   type: vmess
   server: 103.21.244.192
   port: 443
@@ -1764,7 +1030,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5114
+- name: meta_vmess_564
   type: vmess
   server: 103.21.244.241
   port: 443
@@ -1779,22 +1045,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5115
-  type: vmess
-  server: 104.20.175.253
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5116
+- name: meta_vmess_565
   type: vmess
   server: 190.93.244.67
   port: 443
@@ -1809,67 +1060,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5117
-  type: vmess
-  server: 104.19.207.111
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5118
-  type: vmess
-  server: 104.17.33.104
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5119
-  type: vmess
-  server: 104.20.49.112
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5120
-  type: vmess
-  server: 104.17.113.127
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5121
+- name: meta_vmess_566
   type: vmess
   server: 103.21.244.90
   port: 443
@@ -1884,7 +1075,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5122
+- name: meta_vmess_567
   type: vmess
   server: 188.114.98.112
   port: 443
@@ -1899,7 +1090,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5123
+- name: meta_vmess_568
   type: vmess
   server: 172.67.144.231
   port: 443
@@ -1914,37 +1105,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5124
-  type: vmess
-  server: 104.25.101.168
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5125
-  type: vmess
-  server: 104.19.92.137
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5126
+- name: meta_vmess_569
   type: vmess
   server: 162.159.141.10
   port: 443
@@ -1959,22 +1120,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5127
-  type: vmess
-  server: 104.18.163.142
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5128
+- name: meta_vmess_570
   type: vmess
   server: 103.21.244.142
   port: 443
@@ -1989,7 +1135,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5129
+- name: meta_vmess_571
   type: vmess
   server: 198.41.207.116
   port: 443
@@ -2004,7 +1150,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5130
+- name: meta_vmess_572
   type: vmess
   server: 198.41.214.1
   port: 443
@@ -2019,22 +1165,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5131
-  type: vmess
-  server: 104.18.129.171
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5132
+- name: meta_vmess_573
   type: vmess
   server: 173.245.59.189
   port: 443
@@ -2049,22 +1180,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5133
-  type: vmess
-  server: 104.16.89.204
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5134
+- name: meta_vmess_574
   type: vmess
   server: 103.21.244.23
   port: 443
@@ -2079,22 +1195,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5135
-  type: vmess
-  server: 104.21.21.2
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5136
+- name: meta_vmess_575
   type: vmess
   server: 141.101.115.194
   port: 443
@@ -2109,7 +1210,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5137
+- name: meta_vmess_576
   type: vmess
   server: 188.114.96.81
   port: 443
@@ -2124,7 +1225,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5138
+- name: meta_vmess_577
   type: vmess
   server: 190.93.245.25
   port: 443
@@ -2139,7 +1240,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5139
+- name: meta_vmess_578
   type: vmess
   server: 172.67.205.95
   port: 443
@@ -2154,7 +1255,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5140
+- name: meta_vmess_579
   type: vmess
   server: 173.245.58.151
   port: 443
@@ -2169,7 +1270,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5141
+- name: meta_vmess_580
   type: vmess
   server: 190.93.246.2
   port: 443
@@ -2184,7 +1285,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5142
+- name: meta_vmess_581
   type: vmess
   server: 108.162.194.82
   port: 443
@@ -2199,7 +1300,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5143
+- name: meta_vmess_582
   type: vmess
   server: 172.64.81.37
   port: 443
@@ -2214,7 +1315,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5144
+- name: meta_vmess_583
   type: vmess
   server: 172.67.82.251
   port: 443
@@ -2229,22 +1330,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5145
-  type: vmess
-  server: 104.24.157.58
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5146
+- name: meta_vmess_584
   type: vmess
   server: 141.101.115.216
   port: 443
@@ -2259,22 +1345,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5147
-  type: vmess
-  server: 104.27.7.219
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5148
+- name: meta_vmess_585
   type: vmess
   server: 103.21.244.151
   port: 443
@@ -2289,7 +1360,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5149
+- name: meta_vmess_586
   type: vmess
   server: 103.21.244.156
   port: 443
@@ -2304,67 +1375,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5150
-  type: vmess
-  server: 104.20.118.149
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5151
-  type: vmess
-  server: 104.18.76.190
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5152
-  type: vmess
-  server: 104.24.210.221
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5153
-  type: vmess
-  server: 104.25.12.80
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5154
+- name: meta_vmess_587
   type: vmess
   server: 198.41.192.100
   port: 443
@@ -2379,22 +1390,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5155
-  type: vmess
-  server: 104.20.150.10
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5156
+- name: meta_vmess_588
   type: vmess
   server: 103.21.244.81
   port: 443
@@ -2409,7 +1405,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5157
+- name: meta_vmess_589
   type: vmess
   server: 190.93.246.12
   port: 443
@@ -2424,7 +1420,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5158
+- name: meta_vmess_590
   type: vmess
   server: 162.159.245.75
   port: 443
@@ -2439,37 +1435,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5159
-  type: vmess
-  server: 104.27.97.174
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5160
-  type: vmess
-  server: 104.27.84.44
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5161
+- name: meta_vmess_591
   type: vmess
   server: 190.93.246.122
   port: 443
@@ -2484,37 +1450,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5162
-  type: vmess
-  server: 104.19.180.49
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5163
-  type: vmess
-  server: 104.26.11.62
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5164
+- name: meta_vmess_592
   type: vmess
   server: 108.162.193.38
   port: 443
@@ -2529,82 +1465,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5165
-  type: vmess
-  server: 104.19.185.86
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5166
-  type: vmess
-  server: 104.18.229.11
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5167
-  type: vmess
-  server: 104.23.141.57
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5168
-  type: vmess
-  server: 104.18.202.10
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5169
-  type: vmess
-  server: 104.17.174.138
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5170
+- name: meta_vmess_593
   type: vmess
   server: 173.245.58.253
   port: 443
@@ -2619,7 +1480,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5171
+- name: meta_vmess_594
   type: vmess
   server: 198.41.212.54
   port: 443
@@ -2634,37 +1495,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5172
-  type: vmess
-  server: 104.20.106.63
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5173
-  type: vmess
-  server: 104.25.53.45
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5174
+- name: meta_vmess_595
   type: vmess
   server: 190.93.246.147
   port: 443
@@ -2679,7 +1510,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5175
+- name: meta_vmess_596
   type: vmess
   server: 198.41.204.95
   port: 443
@@ -2694,7 +1525,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5176
+- name: meta_vmess_597
   type: vmess
   server: 173.245.49.54
   port: 443
@@ -2709,7 +1540,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5177
+- name: meta_vmess_598
   type: vmess
   server: 173.245.59.188
   port: 443
@@ -2724,7 +1555,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5178
+- name: meta_vmess_599
   type: vmess
   server: 172.66.172.182
   port: 443
@@ -2739,7 +1570,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5179
+- name: meta_vmess_5100
   type: vmess
   server: 188.114.98.242
   port: 443
@@ -2754,7 +1585,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5180
+- name: meta_vmess_5101
   type: vmess
   server: 141.101.90.100
   port: 443
@@ -2769,7 +1600,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5181
+- name: meta_vmess_5102
   type: vmess
   server: 188.114.99.6
   port: 443
@@ -2784,37 +1615,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5182
-  type: vmess
-  server: 104.23.121.209
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5183
-  type: vmess
-  server: 104.17.59.5
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5184
+- name: meta_vmess_5103
   type: vmess
   server: 190.93.246.47
   port: 443
@@ -2829,7 +1630,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5185
+- name: meta_vmess_5104
   type: vmess
   server: 188.114.97.48
   port: 443
@@ -2844,7 +1645,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5186
+- name: meta_vmess_5105
   type: vmess
   server: 108.162.196.15
   port: 443
@@ -2859,22 +1660,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5187
-  type: vmess
-  server: 104.20.43.145
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5188
+- name: meta_vmess_5106
   type: vmess
   server: 173.245.58.81
   port: 443
@@ -2889,7 +1675,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5189
+- name: meta_vmess_5107
   type: vmess
   server: 103.21.244.78
   port: 443
@@ -2904,22 +1690,7 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5190
-  type: vmess
-  server: 104.24.222.135
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5191
+- name: meta_vmess_5108
   type: vmess
   server: 103.21.244.141
   port: 443
@@ -2934,9 +1705,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5192
+- name: meta_vmess_5109
   type: vmess
-  server: 104.18.36.215
+  server: 108.162.196.31
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2949,9 +1720,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_5193
+- name: meta_vmess_5110
   type: vmess
-  server: 108.162.196.31
+  server: 23.227.38.11
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -3079,7 +1850,8 @@ proxy-groups:
   - DIRECT
   - meta_vmess_11
   - meta_vmess_12
-  - meta_tuic_41
+  - meta_vmess_41
+  - meta_vmess_42
   - meta_vmess_51
   - meta_vmess_52
   - meta_vmess_53
@@ -3190,89 +1962,6 @@ proxy-groups:
   - meta_vmess_5108
   - meta_vmess_5109
   - meta_vmess_5110
-  - meta_vmess_5111
-  - meta_vmess_5112
-  - meta_vmess_5113
-  - meta_vmess_5114
-  - meta_vmess_5115
-  - meta_vmess_5116
-  - meta_vmess_5117
-  - meta_vmess_5118
-  - meta_vmess_5119
-  - meta_vmess_5120
-  - meta_vmess_5121
-  - meta_vmess_5122
-  - meta_vmess_5123
-  - meta_vmess_5124
-  - meta_vmess_5125
-  - meta_vmess_5126
-  - meta_vmess_5127
-  - meta_vmess_5128
-  - meta_vmess_5129
-  - meta_vmess_5130
-  - meta_vmess_5131
-  - meta_vmess_5132
-  - meta_vmess_5133
-  - meta_vmess_5134
-  - meta_vmess_5135
-  - meta_vmess_5136
-  - meta_vmess_5137
-  - meta_vmess_5138
-  - meta_vmess_5139
-  - meta_vmess_5140
-  - meta_vmess_5141
-  - meta_vmess_5142
-  - meta_vmess_5143
-  - meta_vmess_5144
-  - meta_vmess_5145
-  - meta_vmess_5146
-  - meta_vmess_5147
-  - meta_vmess_5148
-  - meta_vmess_5149
-  - meta_vmess_5150
-  - meta_vmess_5151
-  - meta_vmess_5152
-  - meta_vmess_5153
-  - meta_vmess_5154
-  - meta_vmess_5155
-  - meta_vmess_5156
-  - meta_vmess_5157
-  - meta_vmess_5158
-  - meta_vmess_5159
-  - meta_vmess_5160
-  - meta_vmess_5161
-  - meta_vmess_5162
-  - meta_vmess_5163
-  - meta_vmess_5164
-  - meta_vmess_5165
-  - meta_vmess_5166
-  - meta_vmess_5167
-  - meta_vmess_5168
-  - meta_vmess_5169
-  - meta_vmess_5170
-  - meta_vmess_5171
-  - meta_vmess_5172
-  - meta_vmess_5173
-  - meta_vmess_5174
-  - meta_vmess_5175
-  - meta_vmess_5176
-  - meta_vmess_5177
-  - meta_vmess_5178
-  - meta_vmess_5179
-  - meta_vmess_5180
-  - meta_vmess_5181
-  - meta_vmess_5182
-  - meta_vmess_5183
-  - meta_vmess_5184
-  - meta_vmess_5185
-  - meta_vmess_5186
-  - meta_vmess_5187
-  - meta_vmess_5188
-  - meta_vmess_5189
-  - meta_vmess_5190
-  - meta_vmess_5191
-  - meta_vmess_5192
-  - meta_vmess_5193
   - meta_hysteria_61
   - meta_hysteria_71
   - hysteria_0
@@ -3289,7 +1978,8 @@ proxy-groups:
   proxies:
   - meta_vmess_11
   - meta_vmess_12
-  - meta_tuic_41
+  - meta_vmess_41
+  - meta_vmess_42
   - meta_vmess_51
   - meta_vmess_52
   - meta_vmess_53
@@ -3400,89 +2090,6 @@ proxy-groups:
   - meta_vmess_5108
   - meta_vmess_5109
   - meta_vmess_5110
-  - meta_vmess_5111
-  - meta_vmess_5112
-  - meta_vmess_5113
-  - meta_vmess_5114
-  - meta_vmess_5115
-  - meta_vmess_5116
-  - meta_vmess_5117
-  - meta_vmess_5118
-  - meta_vmess_5119
-  - meta_vmess_5120
-  - meta_vmess_5121
-  - meta_vmess_5122
-  - meta_vmess_5123
-  - meta_vmess_5124
-  - meta_vmess_5125
-  - meta_vmess_5126
-  - meta_vmess_5127
-  - meta_vmess_5128
-  - meta_vmess_5129
-  - meta_vmess_5130
-  - meta_vmess_5131
-  - meta_vmess_5132
-  - meta_vmess_5133
-  - meta_vmess_5134
-  - meta_vmess_5135
-  - meta_vmess_5136
-  - meta_vmess_5137
-  - meta_vmess_5138
-  - meta_vmess_5139
-  - meta_vmess_5140
-  - meta_vmess_5141
-  - meta_vmess_5142
-  - meta_vmess_5143
-  - meta_vmess_5144
-  - meta_vmess_5145
-  - meta_vmess_5146
-  - meta_vmess_5147
-  - meta_vmess_5148
-  - meta_vmess_5149
-  - meta_vmess_5150
-  - meta_vmess_5151
-  - meta_vmess_5152
-  - meta_vmess_5153
-  - meta_vmess_5154
-  - meta_vmess_5155
-  - meta_vmess_5156
-  - meta_vmess_5157
-  - meta_vmess_5158
-  - meta_vmess_5159
-  - meta_vmess_5160
-  - meta_vmess_5161
-  - meta_vmess_5162
-  - meta_vmess_5163
-  - meta_vmess_5164
-  - meta_vmess_5165
-  - meta_vmess_5166
-  - meta_vmess_5167
-  - meta_vmess_5168
-  - meta_vmess_5169
-  - meta_vmess_5170
-  - meta_vmess_5171
-  - meta_vmess_5172
-  - meta_vmess_5173
-  - meta_vmess_5174
-  - meta_vmess_5175
-  - meta_vmess_5176
-  - meta_vmess_5177
-  - meta_vmess_5178
-  - meta_vmess_5179
-  - meta_vmess_5180
-  - meta_vmess_5181
-  - meta_vmess_5182
-  - meta_vmess_5183
-  - meta_vmess_5184
-  - meta_vmess_5185
-  - meta_vmess_5186
-  - meta_vmess_5187
-  - meta_vmess_5188
-  - meta_vmess_5189
-  - meta_vmess_5190
-  - meta_vmess_5191
-  - meta_vmess_5192
-  - meta_vmess_5193
   - meta_hysteria_61
   - meta_hysteria_71
   - hysteria_0
