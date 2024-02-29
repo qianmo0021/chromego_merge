@@ -45,14 +45,14 @@ proxies:
   server: 23.227.38.44
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_03
@@ -150,14 +150,14 @@ proxies:
   server: 162.159.130.208
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_010
@@ -210,14 +210,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_014
@@ -270,14 +270,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_11
@@ -570,14 +570,14 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_41
@@ -630,14 +630,14 @@ proxies:
   server: 23.227.39.45
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_51
