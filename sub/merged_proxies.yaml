@@ -60,14 +60,14 @@ proxies:
   server: 23.227.38.44
   port: 8080
   cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_04
@@ -75,14 +75,14 @@ proxies:
   server: 23.227.38.22
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_05
@@ -94,12 +94,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_06
   type: vmess
   server: 162.159.153.11
@@ -124,18 +124,18 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_08
   type: vmess
   server: 162.159.137.31
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
@@ -150,14 +150,14 @@ proxies:
   server: 162.159.130.208
   port: 8080
   cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_010
@@ -184,25 +184,25 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_012
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_013
@@ -210,14 +210,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_014
@@ -244,25 +244,25 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_016
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_017
@@ -270,14 +270,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_11
@@ -525,6 +525,21 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+- name: meta_vmess_32
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
   uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
@@ -535,22 +550,22 @@ proxies:
     path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: meta_vmess_32
+- name: meta_vmess_33
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-- name: meta_vmess_33
+- name: meta_vmess_34
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -559,27 +574,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
-- name: meta_vmess_34
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
-    headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_41
   type: vmess
   server: 23.227.39.12
@@ -600,14 +600,14 @@ proxies:
   server: 23.227.39.24
   port: 8080
   cipher: auto
-  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_43
@@ -619,25 +619,25 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: configured-creek-relating-theater.trycloudflare.com
+  servername: championship-bidding-oxygen-brochure.trycloudflare.com
   network: ws
   ws-opts:
     path: 46958ae9-31fb-48ef-8d13-9de4ac8a57b3-vm
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
 - name: meta_vmess_44
   type: vmess
   server: 23.227.39.45
   port: 8080
   cipher: auto
-  uuid: a984d860-a48a-4b1f-b6d4-74f7365b63e5
+  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: a984d860-a48a-4b1f-b6d4-74f7365b63e5-vm
+    path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_51
@@ -914,6 +914,18 @@ proxies:
     host: nijigen-works.jp
     password: FHDLxKgzbcDCPmijble8uT1gddgBmOxA1XXeDgyqgGc=
     version: 3
+- name: shadowtls_0
+  type: ss
+  server: 172.83.156.157
+  port: 44550
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 5IH4rBauUuOT4VpAshgMPMSQ3Tf+oJjDY/jEDbIel2Q=
+  plugin: shadow-tls
+  client-fingerprint: chrome
+  plugin-opts:
+    host: nijigen-works.jp
+    password: FHDLxKgzbcDCPmijble8uT1gddgBmOxA1XXeDgyqgGc=
+    version: 3
 - name: hysteria_0
   type: hysteria
   server: 51.158.54.46
@@ -1036,6 +1048,7 @@ proxy-groups:
   - meta_hysteria_61
   - meta_hysteria_71
   - meta_ss_91
+  - shadowtls_0
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1106,6 +1119,7 @@ proxy-groups:
   - meta_hysteria_61
   - meta_hysteria_71
   - meta_ss_91
+  - shadowtls_0
   - hysteria_0
   - hysteria_1
   - hysteria_2
