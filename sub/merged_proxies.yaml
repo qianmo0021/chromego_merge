@@ -721,15 +721,15 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 51.158.54.46
-  port: 55396
-  ports: 55396
+  server: 108.181.5.133
+  port: 26022
+  ports: 26022
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
