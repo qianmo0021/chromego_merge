@@ -25,66 +25,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: meta_vmess_01
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
+- name: meta_hysteria2_01
+  type: hysteria2
+  server: 74.63.233.74
+  port: 33445
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: meta_vmess_02
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: meta_vmess_03
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_04
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+  up: 5 Mbps
+  down: 20 Mbps
 - name: meta_vmess_11
   type: vmess
   server: fbi.gov
@@ -792,10 +743,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - meta_vmess_01
-  - meta_vmess_02
-  - meta_vmess_03
-  - meta_vmess_04
+  - meta_hysteria2_01
   - meta_vmess_11
   - meta_vmess_12
   - meta_vmess_13
@@ -850,10 +798,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - meta_vmess_01
-  - meta_vmess_02
-  - meta_vmess_03
-  - meta_vmess_04
+  - meta_hysteria2_01
   - meta_vmess_11
   - meta_vmess_12
   - meta_vmess_13
