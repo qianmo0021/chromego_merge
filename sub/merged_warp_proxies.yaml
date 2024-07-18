@@ -2347,8 +2347,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  port: 10295
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2358,6 +2358,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: reality_0
+  type: vless
+  server: 62.210.101.0
+  port: 23357
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
+    short-id: 0b4badde
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2535,6 +2549,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_0
 - name: 手动选择
   type: select
   proxies:
@@ -2694,6 +2709,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_0
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2853,6 +2869,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_0
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
